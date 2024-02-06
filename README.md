@@ -12,7 +12,7 @@ A CSS selector is used to select an HTML Element for styling.
  - There are multiple ways to select an HTML Element.
     - Element Selector :: It is used to select an element based on the "Tag-name".
     - Id Selector :: It is used to select an element with a given "ID".
-    - Class Selector :: It is used to select an element with a given class.
+    - Class Selector :: It is used to select an element with a given "class".
     - Unversal Selector :: ( * ) is used for Universal Selector. 
 
 # Comment in CSS?
