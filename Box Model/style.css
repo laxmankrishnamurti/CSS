@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#parent {
+    width: 200px;
+    height: 100px;
+    background-color: salmon;
+    border: 5px solid black;
+}
+
+#child {
+    width: 100%;
+    box-sizing: content-box;
+    border: 20px solid darkviolet;
+}
+
+/* uncomment the below code and comment above code and see what happen?  */
+
+/* #child {
+    width: 100%;
+    box-sizing: border-box;
+    border-style: double;
+    border: 10px solid darkviolet;
+} */

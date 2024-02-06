@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#para-1 {
+    background-color: #AFDDEE;
+    color: #414141;
+    padding: 1em;
+}
+
+#container {
+    width: 1000px;
+    height: 300px;
+    background-color: salmon;
+    background-image: url(../Assets/image-01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+#container-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: salmon;
+    margin: 1rem 0;
+    background-image: url(../Assets/image-05.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
