@@ -1,0 +1,19 @@
+@media only screen and (min-width: 400) {
+    #contianer {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        border: 2px solid black;
+        margin: auto;
+        color: black;
+    }
+    
+    #child {
+        width: 150px;
+        height: 150px;
+        background-color: blueviolet;
+        border: 2px solid black;
+        color: white;
+        margin: auto;
+    }
+}

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#contianer {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid black;
+    margin: auto;
+    color: black;
+}
+
+#child {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    border: 2px solid black;
+    color: white;
+    margin: auto;
+}
