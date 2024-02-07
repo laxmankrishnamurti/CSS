@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Protest Riot', sans-serif;
+}
+
+#block {
+    background-color: orangered;
+}
+
+span {
+    background-color: aqua;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+#nav-des {
+    background-color: brown;
+    color: white;
+}
+
+nav ul li{
+    background-color: blueviolet;
+    color: white;
+    margin: 10px 0;
+    display: inline;
+    padding: 10px;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+p {
+    line-height: 2.5;     /*  This is Line-height Property which specify the space between lines*/
+}

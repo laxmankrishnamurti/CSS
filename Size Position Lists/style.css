@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#description {
+    z-index: 10;
+    position: fixed;        /* It looks like Parallex Effect */
+}
+
+#parent {
+    width: 50vw;
+    /* height: 50vh;       For making website responsive specifing height is not a good way. It's create problems while achieving responsiveness. */
+    background-color: rgb(165, 42, 42);
+    color:white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#child {
+    font-size: 2em;       /* (12 * 2 = 24px) */
+    width: 80%;             /* widht = 50vw * 80%) */
+    background-color: blueviolet;
+}
+
+#container {
+    min-width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 1rem 0;
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    /* position: relative; */
+    /* left: 500px; */
+    /* bottom: 200px; */
+
+    /* position: absolute; */
+    /* right: 0; */
+    /* left: 0; */
+    /* bottom: 0; */
+}
+
+.second-child span{
+    background-color: aqua;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+
+nav li {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}

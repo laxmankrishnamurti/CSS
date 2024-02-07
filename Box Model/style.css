@@ -24,3 +24,18 @@
     border-style: double;
     border: 10px solid darkviolet;
 } */
+
+#outer {
+    margin-top: 10px;
+    width: 200px;
+    background-color: orangered;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+#inner {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+    border: 5px solid saddlebrown;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font and Display</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+        </style>
+</head>
+<body>
+    <h1>Font and Display</h1>
+
+    <div id="display">
+        <p>The CSS display property is used to determine whether an element is treated as a "Block" or "Inline" element.</p>
+        <p>Inline :: Takes only the space required bu the element. No line break before and after. Setting widht and height is not allowed.</p>
+        <p>Block :: Takes full available in widht and leaves a newline before and after the element.</p>
+        <p>Inline-block :: It is quite similar to inline but setting widht and height is allowed. Element can sit next to each other.</p>
+    </div>
+
+    <div id="practice">
+        <div id="block">
+            <p>This is a block level element</p>
+        </div>
+        <span>This is inline level element</span>
+        <nav>
+            <ul>
+                <p id="nav-des">These list-items are block level element. But, we can convert it's display type block to inline. Below is the result of doing block to inline</p>
+                <br>
+                <li>Home</li>
+                <li>Services</li>
+                <li>About Us</li>
+                <li>Sign Up</li>
+                <li>Log In</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
