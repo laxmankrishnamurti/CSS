@@ -6,12 +6,13 @@
 }
 
 #contianer {
-    width: 200px;
-    height: 200px;
+    width: 40%;
+    /* heht: 200px; */
     background-color: red;
     border: 2px solid black;
     margin: auto;
     color: black;
+    display: flex;
 }
 
 #child {
